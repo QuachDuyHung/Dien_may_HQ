@@ -103,7 +103,8 @@
 }
 @media (max-width: 992px) {
     header .hd-bottom {
-        .hd-bottom-fake-menu .menu-category li .sub-menu-category, .hd-bottom-menu > li .sub-menu-hot {
+        .hd-bottom-fake-menu .menu-category li .sub-menu-category,
+        .hd-bottom-menu > li .sub-menu-hot {
             min-width: 500px;
         }
     }
@@ -128,7 +129,8 @@
         }
     }
     header .hd-bottom {
-        .hd-bottom-fake-menu .menu-category li .sub-menu-category, .hd-bottom-menu > li .sub-menu-hot {
+        .hd-bottom-fake-menu .menu-category li .sub-menu-category,
+        .hd-bottom-menu > li .sub-menu-hot {
             min-width: 450px;
         }
     }
@@ -215,7 +217,8 @@
             display: none;
         }
         .hd-mid {
-            .hd-mid-search .hd-mid-dropdown-search, .hd-mid-report-user .report-user-cart .total-pay {
+            .hd-mid-search .hd-mid-dropdown-search,
+            .hd-mid-report-user .report-user-cart .total-pay {
                 display: none;
             }
             .hd-mid-report-user {
@@ -255,7 +258,8 @@
                     }
                 }
             }
-            .hd-mid-report-user .compare, .hd-mid-report-user .wishlish {
+            .hd-mid-report-user .compare,
+            .hd-mid-report-user .wishlish {
                 display: none;
             }
         }
@@ -325,7 +329,7 @@
                         &:hover, .hv-bg-yellow:hover {
                             background-color: #f5f5f5;
                         }
-                        > a i {
+                        > a > i {
                             transform: rotate(90deg);
                             transition: transform 0.3s ease-in-out;
                             &.active {
@@ -364,7 +368,7 @@
                 }
             }
             .hd-bottom-menu > li {
-                margin-right: 10px;
+                margin-right: 8px;
                 &.menu-hot {
                     &:hover .sub-menu-hot{
                         opacity: 0;
@@ -440,10 +444,10 @@
     }
     .title-slider {
         font-size: 1rem;
-        padding: 8px 0;
         margin-bottom: 5px;
-        &:before {
-            width: 50%;
+        a {
+            min-width: 200px;
+            padding: 8px 0;
         }
     }
     .products-slider {
@@ -504,7 +508,7 @@
     header .hd-bottom .hd-bottom-menu > li {
         margin-right: 0;
         > a {
-            padding: 10px 8px;
+            padding: 10px 6px;
         }
         .sub-menu-hot {
             min-width: 290px;
@@ -557,7 +561,8 @@
     footer .ft-top .register-form input[type="text"] {
         min-width: unset;
     }
-    footer .ft-top .register-form span, footer .ft-top .register-form input[type="submit"] {
+    footer .ft-top .register-form span,
+    footer .ft-top .register-form input[type="submit"] {
         font-size: 11px;
     }
     footer .ft-bottom .hq-information div {
